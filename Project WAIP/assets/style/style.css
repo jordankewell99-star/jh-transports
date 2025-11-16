@@ -1,0 +1,119 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.nav {
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 1px solid dodgerblue;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: bold;
+  color: dodgerblue;
+}
+
+.links a {
+  color: lightgray;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.links a.active,
+.links a:hover {
+  color: dodgerblue;
+}
+
+.container {
+  width: 90%;
+  max-width: 950px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: rgb(30, 30, 30);
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.hero-right h1 {
+  color: dodgerblue;
+  font-size: 26px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid dimgray;
+  background-color: rgb(15, 15, 15);
+  color: whitesmoke;
+}
+
+input:focus, select:focus {
+  border-color: dodgerblue;
+  outline: none;
+}
+
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  width: fit-content;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: deepskyblue;
+  transform: scale(1.03);
+}
+
+.chip {
+  display: inline-block;
+  background-color: rgba(30, 144, 255, 0.1);
+  color: dodgerblue;
+  border: 1px solid dodgerblue;
+  padding: 6px 10px;
+  border-radius: 15px;
+  margin-right: 6px;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid dimgray;
+  color: gray;
+  background-color: rgb(20, 20, 20);
+}

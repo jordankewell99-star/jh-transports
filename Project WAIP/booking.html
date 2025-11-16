@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking - J&H Transports</title>
+  <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+
+  <div class="nav">
+    <div class="brand">J&H Transports</div>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="booking.html" class="active">Booking</a>
+      <a id="adminLink" href="#">Admin</a>
+      <a href="report.html">Report</a>
+      <a href="#" id="logoutBtn">Logout</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <h2>Book Your Trip</h2>
+      <form id="bookingForm">
+        <label>Name</label>
+        <input type="text" id="bookName" required>
+
+        <label>Choose Route</label>
+        <select id="routeSelect" required></select>
+
+        <label>Date</label>
+        <input type="date" id="bookDate" required>
+
+        <label>Seats</label>
+        <input type="number" id="bookSeats" min="1" max="10" required>
+
+        <button class="btn" type="submit">Book Now</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer">
+    © 2025 J&H Transports - Project by Jordan & Haua - Universiti Teknologi PETRONAS
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
